@@ -3,7 +3,7 @@ import bg from "../assets/bg2.jpg"
 
 export default function About() {
     return (
-      <section class="pb-10 bg-white">
+      <section id="aboutus" class="pb-10 bg-white">
         <div class="container mx-auto px-4">
           <div class="flex flex-col items-center justify-center space-y-8">
             <h2 class="text-4xl font-bold text-center text-secondary pt-4">
@@ -23,7 +23,7 @@ export default function About() {
 
         <div class="container mx-auto px-4 mt-16">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div class="flex flex-col items-center justify-center space-y-6 p-10 bg-gray-200 rounded-xl">
+            <div class="flex flex-col items-center justify-center space-y-6 p-10 bg-gray-300 rounded-xl">
               <h3 class="text-3xl font-bold text-secondary">Our Vision</h3>
               <p class="text-gray-600 text-md text-center">
                 Develops standards and empowers development of technology,
@@ -38,7 +38,7 @@ export default function About() {
               </p>
             </div>
 
-            <div class="flex flex-col items-center justify-center space-y-6 p-10 bg-gray-200 rounded-xl">
+            <div class="flex flex-col items-center justify-center space-y-6 p-10 bg-gray-300 rounded-xl">
               <h3 class="text-3xl font-bold text-secondary">Our Mission</h3>
               <p class="text-gray-600 text-md text-center">
                 To be the leading provider of scientific and engineering

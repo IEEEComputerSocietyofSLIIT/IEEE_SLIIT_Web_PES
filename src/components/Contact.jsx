@@ -22,8 +22,8 @@ export default function Contact() {
           </svg>
         </div>
 
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
-          <div className="mb-4">
+        <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-10">
+        <div className="mb-4">
             <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
               <p className="text-base font-semibold uppercase tracking-wide text-blue-600 dark:text-blue-200">
                
@@ -106,7 +106,7 @@ export default function Contact() {
                     </div>
                   </li>
                   <a href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join">
-                    <li className="flex items-center mb-8">
+                    <li className="flex items-center mb-4">
                       <div className="flex h-10 w-10 items-center justify-center rounded bg-primary text-gray-50">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -133,7 +133,7 @@ export default function Contact() {
                     </li>
                   </a>
                   <a href="https://www.ieee.org/membership- catalog/productdetail/showProductDetailPage.html?product=MEMPE031&refProd=MEMPE031">
-                    <li className="flex items-center mb-8">
+                    <li className="flex items-center mb-4">
                       <div className="flex h-10 w-10 items-center justify-center rounded bg-primary text-gray-50">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +160,7 @@ export default function Contact() {
                     </li>
                   </a>
                   <a>
-                    <li className="flex items-center mb-8">
+                    <li className="flex items-center mb-6">
                       <div className="flex h-10 w-10 items-center justify-center rounded bg-primary text-gray-50">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -189,7 +189,7 @@ export default function Contact() {
                   <li>
                     <p>
                       <iframe
-                        className="rounded-xl"
+                        className="rounded-xl w-full md:w-2/3"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126745.6272212363!2d79.829906!3d6.9143985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae256db1a6771c5%3A0x2c63e344ab9a7536!2sSri%20Lanka%20Institute%20of%20Information%20Technology!5e0!3m2!1sen!2slk!4v1721225834362!5m2!1sen!2slk"
                         width="400"
                         height="150"
@@ -265,6 +265,11 @@ export default function Contact() {
               </div>
             </div>
           </div>
+          <div className="md:mt-16 text-center border-t border-gray-800 pt-10 md:pt-10">
+                        <p className="text-gray-300">
+                            &copy; 2024 IEEE PES SLIIT. All rights reserved.
+                        </p>
+                    </div>
         </div>
       </section>
 
