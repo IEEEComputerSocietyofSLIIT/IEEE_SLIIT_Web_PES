@@ -6,7 +6,7 @@ export default function Hero() {
     <div>
       <main class="">
         <section class="relative bg-gradient-to-br from-primary to-purple-200 text-white overflow-hidden">
-          <div class="absolute inset-0 bg-blue-900 opacity-70">
+          <div class="absolute inset-0 bg-blue-900 opacity-90">
             <img
               src={hero}
               class="w-full  absolute inset-0 bg-cover bg-center filter  opacity-50 brightness-50"

@@ -45,7 +45,7 @@ export default function Contact() {
                   <li className="flex items-center mb-8">
                     <div class="flex items-center justify-center gap-x-5 ">
                       <a
-                        href=""
+                        href="https://www.linkedin.com/company/ieee-pes-student-branch-of-sliit/"
                         aria-label="Find us on LinkedIn"
                         target="_blank"
                         rel="noopener"
@@ -64,7 +64,7 @@ export default function Contact() {
                       </a>
 
                       <a
-                        href=""
+                        href="https://web.facebook.com/ieee.pes.sliit"
                         aria-label="Find us on Facebook"
                         target="_blank"
                         rel="noopener"
@@ -82,7 +82,7 @@ export default function Contact() {
                         </svg>
                       </a>
                       <a
-                        href=""
+                        href="https://www.instagram.com/ieeepessliit/"
                         aria-label="Find us on Instagram"
                         target="_blank"
                         rel="noopener"

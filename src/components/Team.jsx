@@ -1,9 +1,11 @@
 import React from "react";
-import Profile from "../assets/profile.jpg";
+import Profile from "../assets/WhatsApp Image 2024-10-09 at 18.00.05_5420523c.jpg";
 import Chairperson_current from "../assets/chairperson_current.jpg";
 import Secretary from "../assets/secretary_current.jpg";
 import Kajansika from '../assets/Kajansika Sivaloganathan-sec.jpg'
 import Venuja from '../assets/Venuja Sevinda-treasurer.jpg'
+import PESprof from '../assets/profPES.JPG'
+import sasitha from '../assets/sasithaProfile.jpg'
 
 export default function Team() {
     return (
@@ -14,13 +16,13 @@ export default function Team() {
                 <div class="mx-auto flex align-middle justify-center">
                     <article class="w-full md:w-[800px] md:items-center md:flex grid rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
                         <div class="relative md:w-1/2 flex items-end overflow-hidden rounded-xl">
-                            <img src={Profile} alt="Hotel Photo" className="w-full " />
+                            <img src={PESprof} alt="Hotel Photo" className="w-full " />
 
                         </div>
 
                         <div class="mt-1 p-2 md:p-10">
-                            <h2 class="text-gray-900 font-semibold text-lg">Prof. Fname Lname</h2>
-                            <p class="text-primary mt-1 text-sm font-semibold ">Head/Department of Computer Systems Engineering, Faculty of Computing-SLIIT</p>
+                            <h2 class="text-gray-900 font-semibold text-lg">Ms. Nuwanthi Abeygunawardena</h2>
+                            <p class="text-primary mt-1 text-sm font-semibold ">Assistant Lecturer Faculty of Engineering | Electrical & Electronic Engineering</p>
 
 
                         </div>
@@ -60,7 +62,7 @@ export default function Team() {
             <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
               <a href="https://www.linkedin.com/in/imethmakariyawasam">
                 <div class="relative flex items-end overflow-hidden rounded-xl">
-                  <img src={Profile} alt="Hotel Photo" />
+                  <img src={sasitha} alt="Hotel Photo" />
                 </div>
 
                 <div class="mt-1 p-2">
