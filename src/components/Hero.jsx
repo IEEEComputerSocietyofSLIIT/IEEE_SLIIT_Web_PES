@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/hero.jpg"
+import hero from "../assets/pesGroup.jpg"
 
 export default function Hero() {
   return (
@@ -11,7 +11,7 @@ export default function Hero() {
               src={hero}
               class="w-full  absolute inset-0 bg-cover bg-center filter  opacity-50 brightness-50"
             />
-            <div class="absolute inset-0 bg-black opacity-60"></div>
+            <div class="absolute inset-0 bg-black opacity-50"></div>
 
           </div>
 
