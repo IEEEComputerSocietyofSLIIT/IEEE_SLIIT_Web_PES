@@ -21,7 +21,7 @@ export default function Hero() {
                 <h1 class="text-5xl text-center md:text-6xl font-bold mb-6 leading-tight">
                   Welcome to IEEE Power and Energy Society
                 </h1>
-                <p class="text-xl text-center mb-8 text-gray-300">IAS is a branch of IEEE that is focused on advancing technology.
+                <p class="text-xl text-center mb-8 text-gray-300">PES is a branch of IEEE that is focused on advancing technology.
                   With a network of leading electrical engineers, academia and
                   industry professionals, the IEEE Power & Energy Society
                   (PES) sets the standard for engagement, education, and
