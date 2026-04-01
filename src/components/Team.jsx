@@ -1,11 +1,89 @@
 import React from "react";
-import Profile from "../assets/WhatsApp Image 2024-10-09 at 18.00.05_5420523c.jpg";
 import Chairperson_current from "../assets/chairperson_current.jpg";
 import Secretary from "../assets/secretary_current.jpg";
-import Kajansika from '../assets/Kajansika Sivaloganathan-sec.jpg'
-import Venuja from '../assets/Venuja Sevinda-treasurer.jpg'
 import PESprof from '../assets/profPES.JPG'
 import sasitha from '../assets/sasithaProfile.jpg'
+import JanithaMayadunna from '../assets/committee-2026-27/janitha-mayadunna.jpg'
+import UvinduSilva from '../assets/committee-2026-27/uvindu-silva.jpg'
+import AmandiKandegamage from '../assets/committee-2026-27/amandi-kandegamage.jpg'
+import DenethTharushka from '../assets/committee-2026-27/deneth-tharushka.jpg'
+import AvanthiJayamani from '../assets/committee-2026-27/avanthi-jayamani.jpg'
+import HamdhanHamza from '../assets/committee-2026-27/hamdhan-hamza.jpg'
+
+const currentBoard = [
+  {
+    name: "Janitha Mayadunna",
+    position: "Chairperson",
+    image: JanithaMayadunna,
+    link: "mailto:janithajmayadunna2003@gmail.com",
+  },
+  {
+    name: "Uvindu Silva",
+    position: "Vice Chairperson",
+    image: UvinduSilva,
+    link: "mailto:hasarauvindu0@gmail.com",
+  },
+  {
+    name: "Amandi Kandegamage",
+    position: "Secretary",
+    image: AmandiKandegamage,
+    link: "mailto:amandi.kandegamage@gmail.com",
+  },
+  {
+    name: "Deneth Tharushka",
+    position: "Treasurer",
+    image: DenethTharushka,
+    link: "mailto:deneththarushka2003@gmail.com",
+  },
+  {
+    name: "Avanthi Jayamani",
+    position: "Editor",
+    image: AvanthiJayamani,
+    link: "mailto:avanthijayamani@gmail.com",
+  },
+  {
+    name: "Hamdhan Hamza",
+    position: "Assistant Secretary",
+    image: HamdhanHamza,
+    link: "mailto:dhanmuhammad376@gmail.com",
+  },
+];
+
+const pastBoard = [
+  {
+    name: "Dimeth Wimalasena",
+    position: "Chairperson",
+    image: Chairperson_current,
+    link: "https://www.linkedin.com/in/yashodha-athapattu-883228235/",
+  },
+  {
+    name: "Sasitha Sandharuwan",
+    position: "Vice Chairperson",
+    image: sasitha,
+    link: "https://www.linkedin.com/in/imethmakariyawasam",
+  },
+  {
+    name: "Ravindie Tilakaratne",
+    position: "Secretary",
+    image: Secretary,
+    link: "http://www.linkedin.com/in/owadibandara",
+  },
+];
+
+const MemberCard = ({ name, position, image, link }) => (
+  <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
+    <a href={link}>
+      <div class="relative flex items-end overflow-hidden rounded-xl">
+        <img src={image} alt={name} className="w-full" />
+      </div>
+
+      <div class="mt-1 p-2">
+        <h2 class="text-gray-900 font-semibold text-lg">{name}</h2>
+        <p class="text-primary mt-1 text-md font-semibold ">{position}</p>
+      </div>
+    </a>
+  </article>
+);
 
 export default function Team() {
     return (
@@ -36,64 +114,21 @@ export default function Team() {
           </h1>
           <p class=" text-gray-600 text-md text-center max-w mb-10">
             Meet the Executive Commitee of IEEE Power & Energy Society of SLIIT
-            for the term 2023/24 who have taken on the role of continuously
+            for the term 2026/27 who have taken on the role of continuously
             inspiring empowering, developing, and guiding the future of our
             members within the field of Power and Energy .
           </p>
 
           <div class="mx-auto grid mb-10 max-w-5xl grid-cols-1 gap-6  md:grid-cols-2 lg:grid-cols-3">
-            <article class="rounded-xl bg-white  p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-              <a href="https://www.linkedin.com/in/yashodha-athapattu-883228235/">
-                <div class="relative flex items-end overflow-hidden rounded-xl">
-                  <img src={Chairperson_current} alt="Hotel Photo" />
-                </div>
-
-                <div class="mt-1 p-2">
-                  <h2 class="text-gray-900 font-semibold text-lg">
-                    Dimeth Wimalasena
-                  </h2>
-                  <p class="text-primary mt-1 text-md font-semibold ">
-                    Chairperson
-                  </p>
-                </div>
-              </a>
-            </article>
-
-            <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-              <a href="https://www.linkedin.com/in/imethmakariyawasam">
-                <div class="relative flex items-end overflow-hidden rounded-xl">
-                  <img src={sasitha} alt="Hotel Photo" />
-                </div>
-
-                <div class="mt-1 p-2">
-                  <h2 class="text-gray-900 font-semibold text-lg">
-                    Sasitha Sandharuwan
-                  </h2>
-                  <p class="text-primary mt-1 text-md font-semibold ">
-                    Vice Chairperson
-                  </p>
-                </div>
-              </a>
-            </article>
-
-            <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-              <a href="http://www.linkedin.com/in/owadibandara">
-                <div class="relative flex items-end overflow-hidden rounded-xl">
-                  <img src={Secretary} alt="Hotel Photo" />
-                </div>
-
-                <div class="mt-1 p-2">
-                  <h2 class="text-gray-900 font-semibold text-lg">
-                    Ravindie Tilakaratne
-                  </h2>
-                  <p class="text-primary mt-1 text-md font-semibold ">
-                    Secretary
-                  </p>
-                </div>
-              </a>
-            </article>
-
-            
+            {currentBoard.map((member) => (
+              <MemberCard
+                key={member.name}
+                name={member.name}
+                position={member.position}
+                image={member.image}
+                link={member.link}
+              />
+            ))}
           </div>
 
           <h1 class="my-4 text-center font-sans text-4xl font-bold text-primary">
@@ -102,60 +137,18 @@ export default function Team() {
           <p class=" text-gray-600 text-md text-center max-w mb-10">
             Introducing the former pillars of IEEE Power & Energy Society of
             SLIIT who successfully led and organized the events hosted by the
-            community for the term 2022/23.
+            community for the previous terms.
           </p>
           <div class="mx-auto grid  grid-cols-1 max-w-5xl gap-6  md:grid-cols-2 lg:grid-cols-3  ">
-            <article class="rounded-xl bg-white  p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-              <a href="#">
-                <div class="relative flex items-end overflow-hidden rounded-xl">
-                  <img src={Profile} alt="Hotel Photo" className="w-full" />
-                </div>
-
-                <div class="mt-1 p-2">
-                  <h2 class="text-gray-900 font-semibold text-lg">
-                    Navod Nanayakkara
-                  </h2>
-                  <p class="text-primary mt-1 text-md font-semibold ">
-                    Chairperson
-                  </p>
-                </div>
-              </a>
-            </article>
-
-            <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-              <a href="#">
-                <div class="relative flex items-end overflow-hidden rounded-xl">
-                  <img src={Venuja} alt="Hotel Photo" className="w-full" />
-                </div>
-
-                <div class="mt-1 p-2">
-                  <h2 class="text-gray-900 font-semibold text-lg">
-                    Venuja Pathirana
-                  </h2>
-                  <p class="text-primary mt-1 text-md font-semibold ">
-                    Vice Chairperson
-                  </p>
-                </div>
-              </a>
-            </article>
-
-            <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
-              <a href="#">
-                <div class="relative flex items-end overflow-hidden rounded-xl">
-                  <img src={Kajansika} alt="Hotel Photo" className="w-full" />
-                </div>
-
-                <div class="mt-1 p-2">
-                  <h2 class="text-gray-900 font-semibold text-lg">
-                    Kajansika Sivaloganathan
-                  </h2>
-                  <p class="text-primary mt-1 text-md font-semibold ">
-                    Secretary
-                  </p>
-                </div>
-              </a>
-            </article>
-
+            {pastBoard.map((member) => (
+              <MemberCard
+                key={member.name}
+                name={member.name}
+                position={member.position}
+                image={member.image}
+                link={member.link}
+              />
+            ))}
           </div>
 
           
