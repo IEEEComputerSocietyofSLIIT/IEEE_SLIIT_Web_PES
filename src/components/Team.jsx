@@ -15,25 +15,25 @@ const currentBoard = [
     name: "Janitha Mayadunna",
     position: "Chairperson",
     image: JanithaMayadunna,
-    link: "mailto:janithajmayadunna2003@gmail.com",
+    link: "https://www.linkedin.com/in/janitha-mayadunna-7720b7314/",
   },
   {
     name: "Uvindu Silva",
     position: "Vice Chairperson",
     image: UvinduSilva,
-    link: "mailto:hasarauvindu0@gmail.com",
+    link: "https://www.linkedin.com/in/uvindu-hasara-92a353394/",
   },
   {
     name: "Amandi Kandegamage",
     position: "Secretary",
     image: AmandiKandegamage,
-    link: "mailto:amandi.kandegamage@gmail.com",
+    link: "https://www.linkedin.com/in/amandi-kandegamage-2249943b9/",
   },
   {
     name: "Deneth Tharushka",
     position: "Treasurer",
     image: DenethTharushka,
-    link: "mailto:deneththarushka2003@gmail.com",
+    link: "https://www.linkedin.com/in/deneth-tharushka-a20100338/",
   },
   {
     name: "Avanthi Jayamani",
@@ -45,7 +45,7 @@ const currentBoard = [
     name: "Hamdhan Hamza",
     position: "Assistant Secretary",
     image: HamdhanHamza,
-    link: "mailto:dhanmuhammad376@gmail.com",
+    link: "https://www.linkedin.com/in/hamdhan-hamza-575a03404/",
   },
 ];
 
