@@ -71,7 +71,7 @@ const pastBoard = [
 ];
 
 const MemberCard = ({ name, position, image, link }) => (
-  <article class="rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
+  <article class="relative rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
     <a href={link}>
       <div class="relative flex items-end overflow-hidden rounded-xl">
         <img src={image} alt={name} className="w-full" />
@@ -92,7 +92,7 @@ export default function Team() {
                 <h1 class="mb-8 text-center font-sans text-4xl font-bold text-primary">Chapter Advisor<span class="text-black">.</span></h1>
                 {/* <p class=" text-gray-600 text-md text-center max-w mb-10"></p> */}
                 <div class="mx-auto flex align-middle justify-center">
-                    <article class="w-full md:w-[800px] md:items-center md:flex grid rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:scale-110 transform translate duration-300">
+                    <article class="relative w-full md:w-[800px] md:items-center md:flex grid rounded-xl bg-white p-3 shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
                         <div class="relative md:w-1/2 flex items-end overflow-hidden rounded-xl">
                             <img src={PESprof} alt="Hotel Photo" className="w-full " />
 
